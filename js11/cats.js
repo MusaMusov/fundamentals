@@ -8,7 +8,7 @@ function solve(arr) {
             console.log(`${this.name}, age ${this.age} says Meow`);
         }
     }
-
+    
     for (let i = 0; i < arr.length; i++) {
         let currCat = arr[i];
         let catInfo = currCat.split(" ");
