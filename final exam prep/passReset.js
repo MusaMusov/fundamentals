@@ -6,7 +6,7 @@ function solve(arr) {
     for (let command of arr) {
         if (command.includes("TakeOdd")) {
             let finalPass = "";
-            for (let m = 0; m < strLength; m++) {
+            for (let m = 0; m < str.length; m++) {
                 let currLetter = str[m];
                 if(m % 2 !== 0) {
                     finalPass += currLetter;
